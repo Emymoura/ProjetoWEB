@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="https://capsule-render.vercel.app/api?type=venom&height=200&width=1000&color=008b8b&reversal=false&fontAlign=50&fontAlignY=50&text=Rede%20Parcerias%20ODS%2017&fontSize=40&fontColor=f0ffff&animation=fadeIn"
+    src= https://capsule-render.vercel.app/api?type=venom&height=300&color=timeGradient&section=header&reversal=false&text=Redes+Parceirias+ODS+17&textBg=false&fontSize=40&fontAlign=50&fontAlignY=50&animation=twinkling&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60)
     width="100%"
   />
 </p>
