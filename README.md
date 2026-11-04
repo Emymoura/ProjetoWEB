@@ -37,7 +37,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 
  
  ┣ 📄 [principal.html](./principal.html)  
- ┣ 📄 [cadastro.html](./index.html)  
+ ┣ 📄 [index (cadastro).html](./index.html)  
  ┣ 📄 [login.html](./login.html)   
  ┣ 📄 [style.css](./style.css)  
  ┗ 📄 [README.md](./README.md)  
