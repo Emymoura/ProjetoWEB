@@ -34,7 +34,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 📦 [projeto-web-utfpr](./)
 
  
- ┣ 📄 [index.html](./index.html)  
+ ┣ 📄 [index.html](./principal.html)  
  ┣ 📄 [cadastro.html](./cadastro.html)  
  ┣ 📄 [login.html](./login.html)   
  ┣ 📄 [style.css](./style.css)  
