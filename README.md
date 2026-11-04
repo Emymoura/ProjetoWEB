@@ -33,13 +33,10 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 ## 📁 Estrutura do Repositório
 📦 [projeto-web-utfpr](./)
 
- ┣ 📂 [figs](./figs/)  
- ┃ ┣ 🖼️ [imagem1.jpg](./figs/)  
- ┃ ┗ 🖼️ [imagem2.jpg](./figs/)  
- ┣ 📄 [index.html](./index.html) *(ou principal.html)*  
+ 
+ ┣ 📄 [index.html](./index.html)  
  ┣ 📄 [cadastro.html](./cadastro.html)  
- ┣ 📄 [login.html](./login.html)  
- ┣ 📄 [curriculum.html](./curriculum.html)  
+ ┣ 📄 [login.html](./login.html)   
  ┣ 📄 [style.css](./style.css)  
  ┗ 📄 [README.md](./README.md)  
 
