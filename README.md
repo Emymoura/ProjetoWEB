@@ -14,7 +14,9 @@ O **Rede Parcerias ODS 17** é uma aplicação web desenvolvida para promover a 
 A solução foi projetada atendendo aos requisitos práticos de estruturação e estilização da disciplina, englobando a área principal, formulários funcionais de autenticação/cadastro e direcionamento para os currículos da equipe.
 
 ## 🔗 Links Oficiais do Projeto
-- 🚀 **[Aplicação Online no GitHub Pages Emily](https://emymoura.github.io/meu-curriculo-UTFPR-WEB-/) [Aplicação Online no GitHub Pages Andre](https://decosawa.github.io/curriculo-webutfpr/)** — Acesse o site publicado e navegável diretamente no seu navegador.
+- 🚀
+- **[Aplicação Online no GitHub Pages Emily](https://emymoura.github.io/meu-curriculo-UTFPR-WEB-/)**
+- **[Aplicação Online no GitHub Pages Andre](https://decosawa.github.io/curriculo-webutfpr/)** — Acesse o site publicado e navegável diretamente no seu navegador.
 - 📹 **[Vídeo de Apresentação (YouTube / Drive)](#)** — Assista ao vídeo de até 3 minutos apresentando a equipe, os objetivos do projeto e a estrutura do código-fonte.
 
 ## 🛠️ Tecnologias Utilizadas
