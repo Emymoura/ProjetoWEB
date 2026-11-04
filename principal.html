@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODS 17 - Parcerias e Meios de Implementação</title>
+    <!-- Fontes Externas Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Fonte de Ícones -->
+    <!-- Ícones FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,39 +17,100 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#sobre">Sobre o ODS 17</a></li>
-                <li><a href="#projetos">Projetos Locais</a></li>
-                <li><a href="login.html">Sair <i class="fas fa-sign-out-alt"></i></a></li>
+                <li><a href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a></li>
+                <li><a href="#metas"><i class="fas fa-bullseye"></i> Metas</a></li>
+                <li><a href="#projetos"><i class="fas fa-project-diagram"></i> Iniciativas</a></li>
+                <li><a href="#contato"><i class="fas fa-envelope"></i> Contato</a></li>
+                <li><a href="login.html" class="btn-sair">Sair <i class="fas fa-sign-out-alt"></i></a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-       <section id="sobre" class="content-section">
-            <h2>Por que as parcerias são importantes?</h2>
-            <p>Para que uma agenda de desenvolvimento sustentável seja bem-sucedida, é necessária a união de diferentes atores: governos, setor privado e sociedade civil.</p>
-            <span>O ODS 17 busca fortalecer os meios de implementação e revitalizar a parceria global.</span>
+        <!-- Seção Banner / Sobre -->
+        <section id="sobre" class="content-section">
+            <h2>Por que as parcerias são fundamentais?</h2>
+            <p>Para que uma agenda de desenvolvimento sustentável seja bem-sucedida, é necessária a união global de governos, setor privado e sociedade civil organizada.</p>
+            <span><i class="fas fa-quote-left"></i> O ODS 17 busca fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável. <i class="fas fa-quote-right"></i></span>
             
             <div class="gallery">
-                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=200&fit=crop" alt="Equipa a colaborar em escritório">
-                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=300&h=200&fit=crop" alt="Reunião de negócios e parcerias">
-                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=300&h=200&fit=crop" alt="Tecnologia e inovação">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=350&h=220&fit=crop" alt="Equipe colaborando em projeto sustentável">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=350&h=220&fit=crop" alt="Reunião de parceria estratégica">
+                <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=350&h=220&fit=crop" alt="Inovação e tecnologia compartilhada">
             </div>
         </section>
 
-        <section id="projetos" class="content-section">
-            <h2>Iniciativas e Metas</h2>
-            <ul>
-                <li>Mobilizar recursos financeiros adicionais.</li>
-                <li>Ajudar os países em desenvolvimento a alcançar a sustentabilidade da dívida de longo prazo.</li>
-            </ul>
-            <article>
-                A tecnologia e a capacitação são pilares essenciais para alcançarmos os objetivos até 2030.
-            </article>
-            <div class="gallery">
-                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=200&fit=crop" alt="Comércio global e economia">
-                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=300&h=200&fit=crop" alt="Capacitação e educação">
+        <!-- Bloco de Estatísticas -->
+        <section class="stats-section">
+            <div class="stat-card">
+                <i class="fas fa-globe-americas fa-2x"></i>
+                <h3>193</h3>
+                <p>Países Comprometidos</p>
             </div>
+            <div class="stat-card">
+                <i class="fas fa-hands-helping fa-2x"></i>
+                <h3>17</h3>
+                <p>Metas de Transformação</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-chart-line fa-2x"></i>
+                <h3>100%</h3>
+                <p>Foco em Impacto Local</p>
+            </div>
+        </section>
+
+        <!-- Seção de Metas e Pilares -->
+        <section id="metas" class="content-section">
+            <h2>Pilares de Atuação do ODS 17</h2>
+            <div class="cards-grid">
+                <article class="card">
+                    <i class="fas fa-coins fa-2x card-icon"></i>
+                    <h3>Finanças</h3>
+                    <p>Mobilizar recursos financeiros adicionais para os países em desenvolvimento a partir de múltiplas fontes.</p>
+                </article>
+                <article class="card">
+                    <i class="fas fa-laptop-code fa-2x card-icon"></i>
+                    <h3>Tecnologia</h3>
+                    <p>Aumentar o compartilhamento de conhecimento, inovação e acesso à ciência em bases mutuamente acordadas.</p>
+                </article>
+                <article class="card">
+                    <i class="fas fa-graduation-cap fa-2x card-icon"></i>
+                    <h3>Capacitação</h3>
+                    <p>Reforçar o apoio internacional para a implementação de um desenvolvimento de capacidades eficaz e direcionado.</p>
+                </article>
+                <article class="card">
+                    <i class="fas fa-shopping-cart fa-2x card-icon"></i>
+                    <h3>Comércio</h3>
+                    <p>Promover um sistema universal, baseado em regras, aberto, não discriminatório e equitativo de comércio.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Iniciativas -->
+        <section id="projetos" class="content-section">
+            <h2>Iniciativas em Destaque</h2>
+            <ul>
+                <li><strong>Cooperação Norte-Sul e Sul-Sul:</strong> Apoio mútuo e transferência de tecnologia limpa.</li>
+                <li><strong>Estabilidade Macroeconômica:</strong> Promoção da coerência de políticas para a sustentabilidade.</li>
+                <li><strong>Parcerias Multissetoriais:</strong> Incentivo a parcerias públicas, público-privadas e com a sociedade civil.</li>
+            </ul>
+
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=350&h=220&fit=crop" alt="Comércio global sustentável">
+                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=350&h=220&fit=crop" alt="Capacitação comunitária e educação">
+            </div>
+        </section>
+
+        <!-- Formulário de Contato / Participação -->
+        <section id="contato" class="content-section">
+            <h2>Proponha uma Parceria Local</h2>
+            <p>Envie sua ideia ou projeto para conectar sua instituição à nossa rede regional.</p>
+            <form class="contact-form" action="#" method="POST" onsubmit="alert('Obrigado! Sua mensagem foi enviada.'); return false;">
+                <input type="text" placeholder="Nome da Sua Organização ou Projeto" required>
+                <input type="email" placeholder="E-mail de Contato" required>
+                <textarea rows="4" placeholder="Descreva brevemente a iniciativa..." required></textarea>
+                <button type="submit"><i class="fas fa-paper-plane"></i> Enviar Proposta</button>
+            </form>
         </section>
     </main>
 
