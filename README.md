@@ -15,7 +15,7 @@ A solução foi projetada atendendo aos requisitos práticos de estruturação e
 
 ## 🔗 Links Oficiais do Projeto
 - 🚀
-- **[Aplicação Online no GitHub Pages Emily](https://emymoura.github.io/meu-curriculo-UTFPR-WEB-/)**
+- **[Aplicação Online no GitHub Pages Emily](https://emymoura.github.io/curriculo-webfront/)**
 - **[Aplicação Online no GitHub Pages Andre](https://decosawa.github.io/curriculo-webutfpr/)** — Acesse o site publicado e navegável diretamente no seu navegador.
 - 📹 **[Vídeo de Apresentação (YouTube / Drive)](#)** — Assista ao vídeo de até 3 minutos apresentando a equipe, os objetivos do projeto e a estrutura do código-fonte.
 
