@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração de usuários - ODS 17</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="adm.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><i class="fas fa-handshake"></i> Rede Parcerias ODS 17</h1>
+        </div>
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="principal.html"><i class="fas fa-home"></i> Página principal</a></li>
+                <li><a href="login.html" class="btn-sair">Sair <i class="fas fa-sign-out-alt"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="admin-main">
+        <section class="content-section" aria-labelledby="admin-title">
+            <h2 id="admin-title">Cadastro de usuários</h2>
+            <p>Cadastre usuários da rede. Os dados ficam salvos neste navegador.</p>
+            <form id="user-form" class="admin-form">
+                <label for="user-name">
+                    Nome do usuário
+                    <input id="user-name" name="nome" type="text" autocomplete="name" required>
+                </label>
+                <label for="user-email">
+                    E-mail
+                    <input id="user-email" name="email" type="email" autocomplete="email" required>
+                </label>
+                <div class="admin-actions">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar campos</button>
+                </div>
+            </form>
+            <p id="admin-status" class="admin-status" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="content-section" aria-labelledby="users-title">
+            <h2 id="users-title">Usuários cadastrados</h2>
+            <div class="search-controls">
+                <label for="search-field">
+                    Pesquisar por
+                    <select id="search-field">
+                        <option value="nome">Nome</option>
+                        <option value="email">E-mail</option>
+                    </select>
+                </label>
+                <label for="search-query">
+                    Busca
+                    <input id="search-query" type="search" placeholder="Digite para pesquisar">
+                </label>
+                <button id="clear-users" class="admin-danger-button" type="button">Excluir todos</button>
+            </div>
+            <ul id="user-list" class="user-list" aria-live="polite"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para o Projeto 2 de Programação Web Front-End (UTFPR)</p>
+        <div class="curriculos">
+            <p><strong>Integrantes da Equipe:</strong></p>
+            <a href="https://emymoura.github.io/curriculo-webfront/" target="_blank" rel="noopener noreferrer"><i class="fas fa-user"></i> Currículo - Emily Vitorya de Moura</a> |
+            <a href="https://decosawa.github.io/curriculo-webutfpr/" target="_blank" rel="noopener noreferrer"><i class="fas fa-user"></i> Currículo - Andre Luiz Gonçalves da Silva Teixeira</a>
+        </div>
+    </footer>
+</body>
+</html>

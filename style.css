@@ -271,3 +271,132 @@ footer a:hover {
 .curriculos {
     margin-top: 10px;
 }
+
+/* Administração de usuários */
+.admin-main {
+    min-height: calc(100vh - 220px);
+}
+
+.admin-form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+    max-width: 760px;
+    margin-top: 20px;
+}
+
+.admin-form label,
+.search-controls label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-weight: bold;
+}
+
+.admin-form input,
+.search-controls input,
+.search-controls select {
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.admin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: end;
+}
+
+.admin-actions button,
+.search-controls button,
+.user-item button {
+    padding: 11px 16px;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.admin-actions button[type="reset"] {
+    background-color: #5c6770;
+}
+
+.admin-actions button:hover,
+.search-controls button:hover,
+.user-item button:hover {
+    filter: brightness(0.9);
+}
+
+.search-controls {
+    display: grid;
+    grid-template-columns: minmax(140px, 1fr) minmax(180px, 2fr) auto;
+    gap: 12px;
+    align-items: end;
+    margin: 20px 0;
+}
+
+.search-controls .admin-danger-button,
+.user-item button {
+    background-color: var(--cor-secundaria);
+}
+
+.admin-danger-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
+
+.user-list {
+    display: grid;
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    padding: 16px;
+    background: var(--cor-branca);
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+
+.user-item p {
+    margin: 4px 0;
+    overflow-wrap: anywhere;
+}
+
+.user-item time {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.admin-status {
+    min-height: 1.5em;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.admin-status[role="alert"] {
+    color: #a61912;
+}
+
+@media (max-width: 640px) {
+    .admin-form,
+    .search-controls {
+        grid-template-columns: 1fr;
+    }
+
+    .user-item {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}
