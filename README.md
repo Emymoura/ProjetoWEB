@@ -6,10 +6,10 @@
 </p>
 
 > [!IMPORTANT]
-> Este repositório contém o código-fonte e a documentação oficial do **Projeto 1 - Programação Web Front-End (2026_02)**, desenvolvido para a disciplina ministrada pela Profa. Rosangela Marquesone na **UTFPR**.
+> Este repositório contém o código-fonte do **Projeto 2 - Programação Web Front-End (2026_02)**, desenvolvido para a disciplina ministrada pela Profa. Rosangela Marquesone na **UTFPR**.
 
 ## 🌐 Sobre o Projeto
-O **Rede Parcerias ODS 17** é uma aplicação web desenvolvida para promover a união entre governos, setor privado e sociedade civil, incentivando a cooperação, mobilização de recursos e fortalecimento da capacitação técnica e tecnológica em prol do desenvolvimento sustentável.
+O **Rede Parcerias ODS 17** é uma aplicação web desenvolvida para promover a união entre governos, setor privado e sociedade civil, incentivando a cooperação, mobilização de recursos e fortalecimento da capacitação técnica e tecnológica em prol do desenvolvimento sustentável. A página de administração permite cadastrar, pesquisar e excluir usuários, mantendo os dados no Local Storage do navegador.
 
 A solução foi projetada atendendo aos requisitos práticos de estruturação e estilização da disciplina, englobando a área principal, formulários funcionais de autenticação/cadastro e direcionamento para os currículos da equipe.
 
@@ -30,6 +30,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 
 - **HTML5 Semântico:** Estruturação semântica limpa (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) validada pelo W3C.
 - **CSS3 Personalizado:** Estilização responsiva com suporte a múltiplas fontes externas (Google Fonts - Roboto), ícones vetoriais (FontAwesome) e paleta cromática dedicada.
+- **JavaScript Vanilla:** Manipulação do DOM e persistência de usuários no Local Storage do navegador, sem frameworks.
 - **Hospedagem & Deploy:** GitHub Pages.
 
 ## 📁 Estrutura do Repositório
@@ -37,6 +38,8 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 
  
  ┣ 📄 [principal.html](./principal.html)  
+ ┣ 📄 [adm.html](./adm.html) — Administração de usuários
+ ┣ 📄 [adm.js](./adm.js) — Cadastro, pesquisa e exclusão com Local Storage
  ┣ 📄 [index (cadastro).html](./index.html)  
  ┣ 📄 [login.html](./login.html)   
  ┣ 📄 [style.css](./style.css)  
@@ -61,7 +64,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 
 </p>
 
-## 📊 Requisitos Atendidos & Validações
+## 📊 Requisitos do Projeto
 - ✅ **Página de Login e Cadastro:** Formulário de cadastro com 5+ campos direcionando ao Login, e Login direcionando à Página Principal.
 - ✅ **Página Principal (ODS 17):**
   - Cabeçalho, menu de navegação e rodapé estilizados.
@@ -69,6 +72,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
   - Mais de 5 imagens ilustrativas e múltiplas caixas de texto (`p`, `span`, `li`, `article`).
   - Paleta de cores harmonizada (4+ cores).
 - ✅ **Currículos da Equipe:** Links acessíveis no rodapé para os currículos individuais hospedados no GitHub Pages.
+- ✅ **Administração:** Cadastro de usuários, pesquisa por nome ou e-mail, exclusão individual e em lote e armazenamento local no navegador.
 - ✅ **Validação W3C:** Códigos testados e validados no [W3C HTML Validator](https://validator.w3.org/) e [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
 ## 👥 Equipe de Desenvolvimento
