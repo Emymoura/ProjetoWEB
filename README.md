@@ -85,7 +85,7 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
 
 <div align="center">
   <!-- Emily Moura -->
-  <a href="https://emymoura.github.io/meu-curriculo-UTFPR-WEB-/" target="_blank">
+  <a href="https://emymoura.github.io/curriculo-webfront/" target="_blank">
     <img src="https://img.shields.io/badge/Currículo-Emily%20Moura-008b8b?style=for-the-badge&logo=github&logoColor=white" height="38"/>
   </a>
   &nbsp;&nbsp;
