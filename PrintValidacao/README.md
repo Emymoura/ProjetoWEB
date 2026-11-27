@@ -9,7 +9,7 @@ Esta pasta contém os registros (prints) dos resultados obtidos durante a valida
 
 ### Evidências de validação
 
-Os registros abaixo documentam os resultados dos testes realizados nas ferramentas de validação.
+As imagens contidas na pasta documentam os resultados dos testes realizados nas ferramentas de validação.
 
 ---
 
