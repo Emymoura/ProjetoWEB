@@ -17,7 +17,7 @@ A solução foi projetada atendendo aos requisitos práticos de estruturação e
 - 🚀
 - **[Aplicação Online no GitHub Pages Emily](https://emymoura.github.io/curriculo-webfront/)**
 - **[Aplicação Online no GitHub Pages Andre](https://decosawa.github.io/curriculo-webutfpr/)** — Acesse o site publicado e navegável diretamente no seu navegador.
-- - 📹 [**Vídeos de Apresentação (YouTube)**] — [Vídeo 1](https://youtu.be/jKNJQdTPsgU) | [Vídeo 2]** — Assista ao vídeo de até 3 minutos apresentando a equipe, os objetivos do projeto e a estrutura do código-fonte.
+- - 📹 [**Vídeos de Apresentação (YouTube)(Drive)**] — [Vídeo 1](https://youtu.be/jKNJQdTPsgU) | [Vídeo 2](https://drive.google.com/file/d/1f3no2wuGYP2oy43swP_2MiNuPzY9W0cP/view?usp=drive_link )** — Assista ao vídeo de até 3 minutos apresentando a equipe, os objetivos do projeto e a estrutura do código-fonte.
 
 ## 🛠️ Tecnologias Utilizadas
 O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garantindo código leve e padronizado:
