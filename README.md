@@ -43,7 +43,11 @@ O ecossistema do projeto foi construído do zero, sem o uso de frameworks, garan
  ┣ 📄 [index (cadastro).html](./index.html)  
  ┣ 📄 [login.html](./login.html)   
  ┣ 📄 [style.css](./style.css)  
- ┗ 📄 [README.md](./README.md)  
+ ┗ 📄 [README.md](./README.md) 
+
+ ## 📋 Validação do Projeto
+
+- [📸 Prints de Validação (HTML e CSS)](./PrintValidacao/)
 
 ## 🔄 Fluxo Metodológico da Aplicação
 <p align="center">
